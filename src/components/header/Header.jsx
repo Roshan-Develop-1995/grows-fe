@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./header.css";
+import './header.css';
 
 const Header = () => {
 
@@ -12,7 +12,7 @@ const Header = () => {
                 </a>
 
                 <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
-                    <ul className="nav__list grid">
+                    <ul className="nav__list">
                         <li className="nav__item">
                             <a href="#home" className="nav__link active-link">
                                 <i className="uil uil-estate nav__icon"></i>Home
